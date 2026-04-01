@@ -14,6 +14,7 @@ function Navbar() {
 
       const toggleTheme = () => {
             setDark(!dark);
+            console.log(dark)
             document.body.style.background = dark ? "white" : "#121212";
             document.body.style.color = dark ? "black" : "white";
       };
